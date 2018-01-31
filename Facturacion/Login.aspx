@@ -4,16 +4,22 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Sistema de Facturación</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/signin.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div class="container">
-            <h1>Esto es un ejemplo</h1>
-            <asp:Button ID="Button1" runat="server" CssClass="btn-danger btn-lg" Text="Button" />
-        </div>
-    </form>
+    <div class="container">
+
+        <form id="form1" class="form-signin" runat="server">
+            <h2 class="form-signin-heading">Ingrese al sistema</h2>
+            <asp:TextBox ID="txtUsuario" runat="server" class="form-control" placeholder="Digite su usuario" MaxLength="10"></asp:TextBox>
+            <asp:TextBox ID="txtPassword" runat="server" class="form-control" placeholder="Digite la clave" MaxLength="10" TextMode="Password"></asp:TextBox>
+            <asp:Button ID="btnIngresar" class="btn btn-lg btn-primary btn-block" runat="server" Text="Ingresar" />
+        </form>
+
+    </div>
+    <!-- /container -->
 </body>
 </html>

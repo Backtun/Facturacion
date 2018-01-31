@@ -5,4 +5,9 @@
 
     End Sub
 
+    Protected Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
+        'conectar a la base
+        'verificar si existe el usuario
+        'redireccionar
+    End Sub
 End Class
