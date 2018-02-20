@@ -104,6 +104,11 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\signin.css" />
     <Content Include="Login.aspx" />
+    <Content Include="paginas\categorias.aspx" />
+    <Content Include="paginas\clientes.aspx" />
+    <Content Include="paginas\facturacion.aspx" />
+    <Content Include="paginas\mantenimiento.aspx" />
+    <Content Include="paginas\reportes.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -126,6 +131,7 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="paginas\Principal.Master" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
@@ -169,6 +175,48 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="paginas\categorias.aspx.designer.vb">
+      <DependentUpon>categorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\categorias.aspx.vb">
+      <DependentUpon>categorias.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="paginas\clientes.aspx.designer.vb">
+      <DependentUpon>clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\clientes.aspx.vb">
+      <DependentUpon>clientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="paginas\facturacion.aspx.designer.vb">
+      <DependentUpon>facturacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\facturacion.aspx.vb">
+      <DependentUpon>facturacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="paginas\mantenimiento.aspx.designer.vb">
+      <DependentUpon>mantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\mantenimiento.aspx.vb">
+      <DependentUpon>mantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="paginas\Principal.Master.designer.vb">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\Principal.Master.vb">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\reportes.aspx.designer.vb">
+      <DependentUpon>reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\reportes.aspx.vb">
+      <DependentUpon>reportes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -210,6 +258,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
